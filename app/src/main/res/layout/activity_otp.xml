@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.4" />
+        app:layout_constraintGuide_percent="0.15" />
 
 
     <View
@@ -23,19 +23,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/topGuideline"
-        android:background="@drawable/curved_bg"
-        android:scaleType="centerCrop"/>
+        android:background="@drawable/curved_bg"/>
 
-    <ImageView
-        android:id="@+id/logoImageView"
-        android:layout_width="185dp"
-        android:layout_height="185dp"
-        android:contentDescription="app logo"
-        android:src="@drawable/logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/topGuideline"/>
 
     <!-- Welcome text -->
     <TextView
